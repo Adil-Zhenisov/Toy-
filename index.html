@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FAF8F4">
+  <meta name="description" content="Зейнет тойға шақыру. Ақ дастарқанымыздың қадірлі қонағы болыңыз! Той туралы ақпарат және қатысу туралы хабарлау.">
+  <meta property="og:title" content="Зейнет тойға шақыру">
+  <meta property="og:description" content="Қуанышымыздың қадірлі қонағы болыңыз!">
+  <meta property="og:type" content="website">
+  <title>Зейнет тойға шақыру — Ақ тілекпен</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="ornament" viewBox="0 0 124 36"><g fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M62 5v26M62 18c-9-14-22-13-22-4 0 8 11 9 13 2M62 18c9-14 22-13 22-4 0 8-11 9-13 2M62 24c-15 11-24 3-18-3M62 24c15 11 24 3 18-3M6 18h26m60 0h26"/><path d="m62 2 3 3-3 3-3-3z"/></g></symbol>
+    <symbol id="arrow-down" viewBox="0 0 24 24"><path d="M12 4v15m-6-6 6 6 6-6"/></symbol>
+    <symbol id="arrow-up-right" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+    <symbol id="calendar" viewBox="0 0 32 32"><rect x="5" y="7" width="22" height="21" rx="2"/><path d="M10 4v6m12-6v6M5 14h22m-16 6h1m7 0h1m-8 4h1m7 0h1"/></symbol>
+    <symbol id="clock" viewBox="0 0 32 32"><circle cx="16" cy="17" r="11"/><path d="M16 10v7l5 3M12 3h8"/></symbol>
+    <symbol id="pin" viewBox="0 0 32 32"><path d="M26 13c0 8-10 16-10 16S6 21 6 13a10 10 0 0 1 20 0Z"/><circle cx="16" cy="13" r="3.5"/></symbol>
+    <symbol id="whatsapp" viewBox="0 0 24 24"><path d="M20.8 11.7a8.8 8.8 0 0 1-13 7.8l-5.3 1.2 1.4-5a8.8 8.8 0 1 1 16.9-4Z"/><path d="m8 7 2 3-1 1c.7 1.6 2 2.9 3.6 3.6l1-1 3 2c-1 3-4.6 1.3-7-1.1S5 8 8 7Z"/></symbol>
+  </defs></svg>
+  <a class="skip-link" href="#invitation">Шақыру мәтініне өту</a>
+  <header class="site-header">
+    <a href="#home" class="brand" aria-label="Ақ тілекпен — басты бет"><svg><use href="#ornament"/></svg><span>Ақ тілекпен</span></a>
+    <nav aria-label="Негізгі навигация"><a href="#invitation">Шақыру</a><a href="#details">Той жайлы</a><a href="#rsvp" class="nav-rsvp">Қатысу <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main>
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <img class="botanical botanical-top" src="assets/botanical-corner.svg" alt="" aria-hidden="true">
+      <img class="botanical botanical-right" src="assets/botanical-corner.svg" alt="" aria-hidden="true">
+      <div class="hero-content">
+        <p class="eyebrow hero-greeting">Құрметті ағайын, қадірлі қонақтар!</p>
+        <h1 id="hero-title">Зейнет тойға<br><em>шақыру</em></h1>
+        <div class="hero-name"><span></span><p data-config="fullName">[АТЫ-ЖӨНІ]</p><span></span></div>
+        <div class="portrait-wrap">
+          <div class="portrait-frame">
+            <div id="portrait-placeholder" class="portrait-placeholder"><img src="assets/portrait-placeholder.svg" alt="" aria-hidden="true"><span>[СУРЕТ]</span></div>
+            <img id="portrait-img" alt="Той иесінің портреті" hidden>
+          </div>
+          <svg class="portrait-flourish" aria-hidden="true"><use href="#ornament"/></svg>
+        </div>
+        <div class="hero-meta"><span data-config="dateLabel">[КҮНІ, АЙЫ, ЖЫЛЫ]</span><i aria-hidden="true"></i><span data-config="city">[ҚАЛА]</span></div>
+        <a class="button button-gold" href="#invitation">Шақыруды оқу <svg class="icon"><use href="#arrow-down"/></svg></a>
+        <p class="hero-footnote">Еңбектің зейнетін бірге тойлайық</p>
+      </div>
+    </section>
+
+    <section id="invitation" class="invitation section-pad" aria-labelledby="invitation-title">
+      <svg class="watermark-ornament" aria-hidden="true"><use href="#ornament"/></svg>
+      <div class="container invitation-layout reveal">
+        <div class="section-heading"><p class="eyebrow">01 / Шын жүректен</p><h2 id="invitation-title">Ақ дастарқан <br>басында<br><em>жүздесейік</em></h2><svg class="heading-ornament" aria-hidden="true"><use href="#ornament"/></svg></div>
+        <div class="invitation-copy"><span class="quote-mark" aria-hidden="true">“</span><p>Сіздерді <strong data-config="fullName">[АТЫ-ЖӨНІ]</strong> құрметті зейнет демалысына шығуына арналған ақ дастарқанымыздың қадірлі қонағы болуға шақырамыз!</p><p>Еңбекпен өрілген жылдардың қуанышын бірге бөлісіп, ізгі тілектеріңізді білдіруге келіңіздер.</p><div class="signature"><span>Ізгі ниетпен,</span><strong data-config="hosts">[ТОЙ ИЕЛЕРІ]</strong></div></div>
+      </div>
+    </section>
+
+    <section id="details" class="details section-pad" aria-labelledby="details-title">
+      <div class="container">
+        <div class="center-heading reveal"><p class="eyebrow">02 / Кездесетін сәт</p><h2 id="details-title">Той туралы ақпарат</h2><p>Қуанышымызды бірге бөлісетін күн</p></div>
+        <div class="details-grid reveal">
+          <article class="detail-card"><svg class="detail-icon icon" aria-hidden="true"><use href="#calendar"/></svg><h3>Той күні</h3><p data-config="eventDateLabel">[ТОЙ КҮНІ]</p><span class="card-note">Күнтізбеңізге белгілеп қойыңыз</span></article>
+          <article class="detail-card"><svg class="detail-icon icon" aria-hidden="true"><use href="#clock"/></svg><h3>Басталу уақыты</h3><p data-config="timeLabel">[САҒАТ]</p><span class="card-note">Сізді асыға күтеміз</span></article>
+          <article class="detail-card venue-card"><svg class="detail-icon icon" aria-hidden="true"><use href="#pin"/></svg><h3>Өтетін орны</h3><p data-config="venue">[МЕЙРАМХАНА АТАУЫ]</p><span class="card-note" data-config="address">[МЕКЕНЖАЙ]</span><a id="map-link" class="text-link" href="#details">Картадан ашу <svg class="icon"><use href="#arrow-up-right"/></svg></a><p class="inline-status" id="map-status" role="status" hidden></p></article>
+        </div>
+        <div class="countdown reveal" aria-labelledby="countdown-title">
+          <svg class="countdown-ornament" aria-hidden="true"><use href="#ornament"/></svg>
+          <p class="eyebrow">Әр сәт бізді жақындатады</p><h2 id="countdown-title">Қуанышты күнге дейін</h2>
+          <div id="countdown-grid" class="countdown-grid" role="timer" aria-label="Тойға дейін қалған уақыт" aria-live="off">
+            <div><span data-count="days">—</span><small>күн</small></div><b aria-hidden="true">:</b><div><span data-count="hours">—</span><small>сағат</small></div><b aria-hidden="true">:</b><div><span data-count="minutes">—</span><small>минут</small></div><b aria-hidden="true">:</b><div><span data-count="seconds">—</span><small>секунд</small></div>
+          </div>
+          <p id="countdown-message" class="welcome-message" role="status" hidden></p><p id="countdown-note" class="countdown-note" role="status">Той күні нақтылануда</p><p class="timezone">Алматы уақытымен · Asia/Almaty</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="rsvp section-pad" aria-labelledby="rsvp-title">
+      <div class="container rsvp-layout">
+        <div class="section-heading reveal"><p class="eyebrow">03 / Жауабыңыз біз үшін маңызды</p><h2 id="rsvp-title">Бірге болатыныңызды<br><em>хабарлаңыз</em></h2><p class="rsvp-intro">Келетініңіз туралы хабар берсеңіз,<br class="desktop-break"> біз үшін үлкен қуаныш болады.</p><svg class="heading-ornament" aria-hidden="true"><use href="#ornament"/></svg></div>
+        <form id="rsvp-form" class="rsvp-form reveal">
+          <label class="field-label" for="guest-name">Аты-жөніңіз <span aria-hidden="true">*</span></label><input id="guest-name" name="guestName" type="text" autocomplete="name" placeholder="Аты-жөніңізді жазыңыз" maxlength="120" required>
+          <fieldset><legend class="field-label">Тойға қатысасыз ба? <span aria-hidden="true">*</span></legend><label class="radio-option"><input type="radio" name="attendance" value="yes" required><span>Келемін</span><span class="radio-check" aria-hidden="true"></span></label><label class="radio-option"><input type="radio" name="attendance" value="no" required><span>Өкінішке қарай, келе алмаймын</span><span class="radio-check" aria-hidden="true"></span></label></fieldset>
+          <div id="guest-count-field" class="guest-count-field" hidden><label class="field-label" for="guest-count">Келетін адам саны</label><input id="guest-count" name="guestCount" type="number" inputmode="numeric" min="1" max="50" step="1" value="1" disabled><span class="field-hint">Өзіңізді қоса есептеңіз</span></div>
+          <button type="submit" id="whatsapp-submit" class="button button-gold whatsapp-button"><svg class="icon" aria-hidden="true"><use href="#whatsapp"/></svg>WhatsApp арқылы хабарлау<svg class="icon end-arrow" aria-hidden="true"><use href="#arrow-up-right"/></svg></button>
+          <p class="form-note">Жауабыңыз WhatsApp-та дайын хабарлама ретінде ашылады. Жіберу үшін растаңыз.</p><p id="rsvp-status" class="inline-status" role="status" hidden></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="closing section-pad" aria-labelledby="closing-title"><img class="botanical closing-botanical" src="assets/botanical-corner.svg" alt="" aria-hidden="true"><div class="closing-content reveal"><svg class="closing-ornament" aria-hidden="true"><use href="#ornament"/></svg><p class="eyebrow">Ізгі тілек. Жылы жүздесу. Ортақ қуаныш.</p><h2 id="closing-title">Қуанышымыздың<br>қадірлі қонағы болыңыз!</h2><p data-config="hosts">[ТОЙ ИЕЛЕРІ]</p><a href="#home" class="back-to-top">Жоғарыға <span aria-hidden="true">↑</span></a></div></section>
+  </main>
+  <footer class="site-footer"><span>Зейнет тойға шақыру</span><span>Ақ тілекпен, сіздер үшін <span class="footer-star" aria-hidden="true">✧</span></span></footer>
+  <noscript><p class="noscript-notice">Кері санақ пен WhatsApp формасын пайдалану үшін браузерде JavaScript қосыңыз.</p></noscript>
+</body>
+</html>

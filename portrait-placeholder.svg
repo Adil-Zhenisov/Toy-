@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="380" viewBox="0 0 300 380" fill="none">
+  <defs><radialGradient id="wash"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#F3EFE6"/></radialGradient><linearGradient id="petal" x1="109" y1="106" x2="179" y2="181" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#ECE4D5" stop-opacity=".4"/></linearGradient></defs>
+  <path fill="url(#wash)" d="M0 0H300V380H0Z"/>
+  <circle cx="151" cy="172" r="95" stroke="#D9CAAD" stroke-opacity=".18"/>
+  <g stroke="#B89B63" stroke-opacity=".4" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M146 295C133 258 143 226 151 195C156 173 152 158 148 144"/>
+    <path d="M140 261C113 257 96 239 95 216C119 220 140 236 140 261Z" fill="#DAD0BA" fill-opacity=".12"/>
+    <path d="M144 235C168 232 185 213 186 190C162 196 146 214 144 235Z" fill="#DAD0BA" fill-opacity=".12"/>
+    <path d="M140 261L107 230M144 235L176 203"/>
+    <path d="M150 176C125 166 105 155 106 134C107 114 125 112 136 129C127 109 136 88 149 91C166 93 167 117 159 134C175 113 190 119 190 136C190 157 169 168 150 176Z" fill="url(#petal)"/>
+    <path d="M150 176C144 164 140 147 136 129M150 176C155 160 159 148 159 134M150 176C151 153 148 143 146 133"/>
+    <path d="M140 282C148 277 155 270 159 260"/>
+  </g>
+  <g fill="#B89B63" opacity=".28"><circle cx="145" cy="130" r="1.5"/><circle cx="149" cy="127" r="1.25"/><circle cx="154" cy="131" r="1.35"/></g>
+</svg>

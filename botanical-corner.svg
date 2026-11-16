@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="700" viewBox="0 0 600 700" fill="none">
+  <defs>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B89B63" stop-opacity=".16"/><stop offset="1" stop-color="#D6C5A0" stop-opacity=".025"/></linearGradient>
+    <radialGradient id="petal" cx=".36" cy=".24" r=".86"><stop stop-color="#FFFFFF"/><stop offset=".48" stop-color="#FEFDF9"/><stop offset=".81" stop-color="#F2EEE4"/><stop offset="1" stop-color="#E2D8C4"/></radialGradient>
+    <radialGradient id="heart"><stop stop-color="#B79A61" stop-opacity=".8"/><stop offset=".56" stop-color="#D0BB8E" stop-opacity=".55"/><stop offset="1" stop-color="#E7DDC7" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D4C8AF" stop-opacity="0"/><stop offset="1" stop-color="#C2AF89" stop-opacity=".24"/></linearGradient>
+    <path id="long-leaf" d="M0 0C-10-21-7-47 4-67C21-47 18-18 0 0Z"/>
+    <path id="petal-shape" d="M0 6C-18-11-40-24-43-52C-46-77-26-96-10-87C1-98 23-88 30-69C41-43 19-14 0 6Z"/>
+    <g id="flower">
+      <g fill="url(#petal)" stroke="#E1DACD" stroke-opacity=".6" stroke-width=".65">
+        <use href="#petal-shape" transform="rotate(0) scale(1.1)"/><use href="#petal-shape" transform="rotate(49) scale(1.08)"/>
+        <use href="#petal-shape" transform="rotate(100) scale(1.05)"/><use href="#petal-shape" transform="rotate(152) scale(1.08)"/>
+        <use href="#petal-shape" transform="rotate(204) scale(1.09)"/><use href="#petal-shape" transform="rotate(256) scale(1.04)"/>
+        <use href="#petal-shape" transform="rotate(308) scale(1.09)"/>
+        <use href="#petal-shape" transform="rotate(26) scale(.79)"/><use href="#petal-shape" transform="rotate(86) scale(.8)"/>
+        <use href="#petal-shape" transform="rotate(145) scale(.76)"/><use href="#petal-shape" transform="rotate(208) scale(.78)"/>
+        <use href="#petal-shape" transform="rotate(268) scale(.75)"/><use href="#petal-shape" transform="rotate(327) scale(.8)"/>
+        <use href="#petal-shape" transform="rotate(3) scale(.48)"/><use href="#petal-shape" transform="rotate(76) scale(.49)"/>
+        <use href="#petal-shape" transform="rotate(148) scale(.45)"/><use href="#petal-shape" transform="rotate(220) scale(.48)"/>
+        <use href="#petal-shape" transform="rotate(292) scale(.47)"/>
+      </g>
+      <g stroke="url(#fold)" stroke-width=".8"><path d="M0 0C-9-21-19-48-12-76"/><path d="M0 0C20-15 44-33 59-55"/><path d="M0 0C26 5 59 15 75 33"/><path d="M0 0C4 24 4 49-8 72"/><path d="M0 0C-20 16-49 33-67 31"/></g>
+      <circle r="20" fill="url(#heart)"/>
+      <g stroke="#BAA16D" stroke-width=".8" stroke-linecap="round" opacity=".75"><path d="M-1 3L-10-9M1 1L1-15M3 3L14-8M4 5L17 1M0 6L5 16M-2 6L-12 13M-3 3L-18-1"/></g>
+      <g fill="#BBA575" opacity=".75"><ellipse cx="-10" cy="-9" rx="1.6" ry="2.4" transform="rotate(-35 -10 -9)"/><ellipse cx="1" cy="-15" rx="1.6" ry="2.4"/><ellipse cx="14" cy="-8" rx="1.6" ry="2.4" transform="rotate(48 14 -8)"/><circle cx="17" cy="1" r="1.8"/><circle cx="5" cy="16" r="1.8"/><circle cx="-12" cy="13" r="1.8"/><circle cx="-18" cy="-1" r="1.8"/></g>
+    </g>
+  </defs>
+  <g stroke="#B89B63" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" opacity=".66">
+    <path d="M-30 35C75 81 171 98 289 67C362 48 406 35 481 54"/>
+    <path d="M19-30C83 85 77 185 113 281C147 371 159 417 139 525C129 575 141 625 172 663"/>
+    <path d="M28 51C70 152 117 159 207 189C278 212 307 233 345 279"/>
+    <path d="M74 202C29 288 54 348 15 417"/>
+    <path d="M109 276C196 314 219 358 230 422"/>
+    <path d="M146 412C205 450 224 484 233 541"/>
+    <path d="M202 189C202 147 226 109 278 95"/>
+    <path d="M289 67C315 98 345 116 387 119"/>
+    <path d="M369 49C380 21 405 6 433-3"/>
+  </g>
+  <g fill="url(#leaf)" stroke="#B89B63" stroke-opacity=".62" stroke-width=".85">
+    <use href="#long-leaf" transform="translate(177 91) rotate(64) scale(.74)"/><use href="#long-leaf" transform="translate(208 85) rotate(123) scale(.79)"/>
+    <use href="#long-leaf" transform="translate(250 76) rotate(53) scale(.72)"/><use href="#long-leaf" transform="translate(293 66) rotate(125) scale(.67)"/>
+    <use href="#long-leaf" transform="translate(333 57) rotate(58) scale(.67)"/><use href="#long-leaf" transform="translate(375 49) rotate(116) scale(.67)"/>
+    <use href="#long-leaf" transform="translate(419 47) rotate(72) scale(.58)"/><use href="#long-leaf" transform="translate(455 50) rotate(110) scale(.48)"/>
+    <use href="#long-leaf" transform="translate(333 104) rotate(142) scale(.6)"/><use href="#long-leaf" transform="translate(365 116) rotate(80) scale(.57)"/>
+    <use href="#long-leaf" transform="translate(104 259) rotate(-49) scale(.86)"/><use href="#long-leaf" transform="translate(129 328) rotate(91) scale(.9)"/>
+    <use href="#long-leaf" transform="translate(142 376) rotate(-52) scale(.85)"/><use href="#long-leaf" transform="translate(150 430) rotate(79) scale(.78)"/>
+    <use href="#long-leaf" transform="translate(147 472) rotate(-61) scale(.75)"/><use href="#long-leaf" transform="translate(139 524) rotate(66) scale(.68)"/>
+    <use href="#long-leaf" transform="translate(137 564) rotate(-70) scale(.66)"/><use href="#long-leaf" transform="translate(146 614) rotate(43) scale(.6)"/>
+    <use href="#long-leaf" transform="translate(171 662) rotate(-22) scale(.5)"/>
+    <use href="#long-leaf" transform="translate(180 319) rotate(138) scale(.7)"/><use href="#long-leaf" transform="translate(212 359) rotate(79) scale(.68)"/>
+    <use href="#long-leaf" transform="translate(227 405) rotate(149) scale(.57)"/>
+    <use href="#long-leaf" transform="translate(205 467) rotate(106) scale(.58)"/><use href="#long-leaf" transform="translate(225 505) rotate(163) scale(.55)"/>
+    <use href="#long-leaf" transform="translate(48 293) rotate(-24) scale(.74)"/><use href="#long-leaf" transform="translate(39 350) rotate(48) scale(.68)"/>
+    <use href="#long-leaf" transform="translate(20 405) rotate(-28) scale(.58)"/>
+    <use href="#long-leaf" transform="translate(251 207) rotate(127) scale(.73)"/><use href="#long-leaf" transform="translate(290 229) rotate(65) scale(.65)"/>
+    <use href="#long-leaf" transform="translate(325 256) rotate(134) scale(.59)"/><use href="#long-leaf" transform="translate(347 282) rotate(143) scale(.45)"/>
+  </g>
+  <g opacity=".9"><use href="#flower" transform="translate(20 39) rotate(-16) scale(1.24)"/><use href="#flower" transform="translate(97 204) rotate(25) scale(.95)"/><use href="#flower" transform="translate(204 99) rotate(-24) scale(.71)"/></g>
+  <g fill="#FAF8F2" stroke="#D3C3A6" stroke-width=".8" opacity=".8"><path d="M377 116C380 106 386 100 392 103C399 97 408 103 405 111C402 120 389 124 377 116Z"/><path d="M169 653C161 644 162 635 168 633C172 626 182 630 182 638C181 646 176 651 169 653Z"/><path d="M337 272C340 261 349 257 353 262C362 261 365 269 358 275C351 279 344 278 337 272Z"/></g>
+</svg>
